@@ -28,5 +28,5 @@ for line in sys.stdin:
     matches = r.match(line)
     if matches:
         print "{0}\t{1}".format(matches.groups()[5], 1)
-    else:
-        print 'No matches: %s' % line
+    #else:
+        #print 'No matches: %s' % line
